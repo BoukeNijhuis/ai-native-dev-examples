@@ -69,12 +69,12 @@
                 <version>1.0-SNAPSHOT</version>
                 <configuration>
                     <testFilePath>
-                        /Users/boukenijhuis/git/devbcn-test-driven-generation-examples/src/test/java/org/example/endpoint/EndpointTest.java
+                        /Users/boukenijhuis/git/ai-native-dev-examples/src/test/java/org/example/endpoint/EndpointTest.java
                     </testFilePath>
 
-<!--                    <family>ollama</family>-->
+                    <family>ollama</family>
 <!--                    <model>pxlksr/opencodeinterpreter-ds</model>-->
-<!--                    <timeout>30</timeout>-->
+<!--                    <timeout>20</timeout>-->
 <!--                    <server>http://localhost:11434</server>-->
 <!--                    <prompt>Do not write a test. Write production code that passes this test: %n%s</prompt>-->
 
