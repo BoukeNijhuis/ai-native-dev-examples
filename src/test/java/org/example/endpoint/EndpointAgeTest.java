@@ -17,7 +17,7 @@ public class EndpointAgeTest {
     @Autowired
     private TestRestTemplate restTemplate;
 
-    // This test will only work in 2024!
+
     @Test
     public void testEndpoint() throws Exception {
         testAgeEndpoint("2024-01-01", 0);
@@ -26,6 +26,7 @@ public class EndpointAgeTest {
         testAgeEndpoint("2000-12-31", 23);
     }
 
+    // HINT: use TODAY to compare dates
     public void testAgeEndpoint(String birthDate, int age) throws Exception {
         String result = this.restTemplate.getForObject("http://localhost:" + port + "/age/" + birthDate,
                 String.class);
